@@ -1,17 +1,9 @@
-package com.fatec;
+package classes;
 
-public class Passarinho {
-    private String nome;
-    private int idade;
-    private float peso;
-
-    public Passarinho () {}
-
-    public Passarinho (String nome, int idade, float peso) {
-        this.nome = nome;
-        this.idade = idade;
-        this.peso = peso;
-    }
+public class Animal {
+    protected String nome;
+    protected int idade;
+    protected double peso;
 
     public String getNome() {
         return nome;
@@ -29,7 +21,7 @@ public class Passarinho {
         this.idade = idade;
     }
 
-    public float getPeso() {
+    public double getPeso() {
         return peso;
     }
 
