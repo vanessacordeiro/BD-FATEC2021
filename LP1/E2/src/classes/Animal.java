@@ -1,9 +1,17 @@
 package classes;
 
 public class Animal {
-    protected String nome;
-    protected int idade;
-    protected double peso;
+    private String nome;
+    private int idade;
+    private double peso;
+
+    public Animal() {}
+
+    public Animal(String nome, int idade, double peso){
+        this.nome = nome;
+        this.idade = idade;
+        this.peso = peso;
+    }
 
     public String getNome() {
         return nome;
