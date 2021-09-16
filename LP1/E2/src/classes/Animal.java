@@ -33,7 +33,11 @@ public class Animal {
         return peso;
     }
 
-    public void setPeso(float peso) {
+    public void setPeso(double peso) {
         this.peso = peso;
+    }
+
+    public String getTipo() {
+        return "animal";
     }
 }
