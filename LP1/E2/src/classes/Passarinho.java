@@ -1,7 +1,5 @@
 package classes;
 
-import classes.Animal;
-
 public class Passarinho extends Animal {
     public Passarinho () {}
 
